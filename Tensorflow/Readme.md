@@ -33,4 +33,8 @@ int main()
 }
 ```
 
-Now for the GPU, some GPU settings are needed
+Now for the GPU, some GPU settings are needed otherwise you will get this message on the console:
+```
+2020-10-22 17:05:08.450662: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
+2020-10-22 17:05:08.457352: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+```
