@@ -13,7 +13,8 @@ Go to properties:
 1/ C/C++ >> General >> Additional Include Directory: add the path where the include folder lives. (it's in the folder libtensorflow windows x86-64 cpu 
 or libtensorflow windows x86-64 gpu)
 
-2/ a) Linker >> General >> Additional Library Directory: add the path where the lib folder lives.
+2/ a) Linker >> General >> Additional Library Directory: add the path where the lib folder lives
+
    b) Input >> Additional Dependencies >> add: tensorflow.lib
 
 3/ save and ok.
