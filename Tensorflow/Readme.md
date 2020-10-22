@@ -20,4 +20,17 @@ or libtensorflow windows x86-64 gpu)
 
 4/ Copy the tensorflow.dll file into your project folder where main.cpp lives.
 
+Now you can test this for the CPU and GPU configuration (TF version):
+
+```
+#include <iostream>
+#include <tensorflow/c/c_api.h>
+
+int main()
+{
+	std::cout << TF_Version();
+	return 0;
+}
+```
+
 Now for the GPU, some GPU settings are needed
