@@ -25,7 +25,7 @@ Now you can test this for the CPU and GPU configuration (TF version):
 
 ```
 #include <iostream>
-#include <tensorflow/c/c_api.h>
+#include "tensorflow/c/c_api.h"
 
 int main()
 {
