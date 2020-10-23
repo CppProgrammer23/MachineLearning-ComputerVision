@@ -44,7 +44,7 @@ Now for the GPU, some required settings are needed otherwise you will get this m
 
 **Follow these instructions:**
 
-1/ install your driver from this website: https://www.nvidia.com/Download/index.aspx?lang=en-us (fill the required blanks then **search**
+1/ install your driver from this website: https://www.nvidia.com/Download/index.aspx?lang=en-us (fill the required blanks then **search**)
 
 2/ install the cuda toolkit @: https://developer.nvidia.com/cuda-90-download-archive 
 
