@@ -34,8 +34,20 @@ int main()
 }
 ```
 
-Now for the GPU, some GPU settings are needed otherwise you will get this message on the console:
+Now for the GPU, some required settings are needed otherwise you will get this message on the console:
 ```
 2020-10-22 17:05:08.450662: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
 2020-10-22 17:05:08.457352: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
 ```
+
+**NB: if you don't have NVIDIA GPU, please ignore the following line**
+
+**Follow these instructions:**
+
+1/ install your driver from this website: https://www.nvidia.com/Download/index.aspx?lang=en-us (fill the required blanks then **search**
+
+2/ install the cuda toolkit @: https://developer.nvidia.com/cuda-90-download-archive 
+
+3/ install the cuDNN @: https://developer.nvidia.com/rdp/cudnn-archive
+
+4/ restart your computer and everything is done
