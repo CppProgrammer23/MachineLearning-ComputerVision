@@ -1,4 +1,4 @@
-**Tensorflow configuration on MSVC**
+# **Tensorflow configuration on MSVC**
 
 **Go to:**
 https://www.tensorflow.org/install/lang_c
