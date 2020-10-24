@@ -1,4 +1,4 @@
-**Tensorflow configuration on MSVC++**
+**Tensorflow configuration on MSVC**
 
 **Go to:**
 https://www.tensorflow.org/install/lang_c
@@ -24,12 +24,12 @@ or libtensorflow windows x86-64 gpu)
 Now you can test this for the CPU and GPU configuration (TF version):
 
 ```
-#include <iostream>
+#include <stdio.h>
 #include "tensorflow/c/c_api.h"
 
 int main()
 {
-	std::cout << TF_Version();
+	printf("%s", TF_Version();
 	return 0;
 }
 ```
