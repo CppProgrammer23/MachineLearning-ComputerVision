@@ -31,7 +31,7 @@ Now you can test this for the CPU and GPU configuration (TF version):
 
 int main()
 {
-	printf("%s", TF_Version();
+	printf("%s", TF_Version());
 	return 0;
 }
 ```
