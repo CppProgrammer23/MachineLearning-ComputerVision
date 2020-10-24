@@ -6,6 +6,8 @@ https://www.tensorflow.org/install/lang_c
 download (Windows CPU only or Windows GPU only or both; depending on your need). extract the folder in your choosen folder (libtensorflow windows x86-64 cpu for CPU 
 or libtensorflow windows x86-64 gpu for GPU).
 
+**NB: don't forget to use x64 because this lib is built for 64-bit**
+
 **Include and linker:**
 
 Go to properties:
@@ -40,7 +42,7 @@ Now for the GPU, some required settings are needed otherwise you will get this m
 2020-10-22 17:05:08.457352: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
 ```
 
-**NB: if you don't have NVIDIA GPU, please ignore the following line**
+**NB: if you don't have NVIDIA GPU, please ignore the following lines**
 
 **Follow these instructions:**
 
